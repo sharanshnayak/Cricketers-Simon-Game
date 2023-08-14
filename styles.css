@@ -1,0 +1,223 @@
+body {
+  text-align: center;
+  background-image: url(img/background.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#level-title {
+  font-size: 2.5rem;
+  margin:  0.5%;
+  color: #FEF2BF;
+ word-spacing: 15px;
+}
+.click {
+  animation: moveinleft .5s;
+  transition: all .5s ease;
+  color: #fff;
+  border: 3px solid white;
+  font-family:'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 20px;
+  background-color : transparent;
+  padding: 12px;
+  outline: none;
+  border-radius: 10px;
+}
+.click:hover {
+  color: #001F3F;
+  background-color: #fff;
+}
+@keyframes moveinleft {
+  0%{
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  80%{
+    transform: translateX(5px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.container {
+  display: block;
+  width: 100%;
+  
+}
+
+.btn {
+  margin: 2%;
+  display: inline-block;
+  height: 210px;
+  width: 220px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+#yellow,#blue{
+  margin-bottom: 0;
+}
+.game-over-1 {
+  background-image: url(img/dream11-dream11ipl.gif);
+  background-repeat:repeat;
+  background-size: cover;
+  background-position: center;
+}
+.game-over-2{
+  background-image: url(img/game-over.jpg);
+  background-repeat:repeat;
+  background-size: cover;
+}
+.red {
+  background-color: red;
+  background-image: url(img/vk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.green {
+  background-color: green;
+  background-image: url(img/ms.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blue {
+  background-color: blue;
+  background-image: url(img/surya.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.yellow {
+  background-image: url(img/rohit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+@media  screen and (max-width: 979px) {
+  .btn{
+  height: 210px;
+  width: 220px;
+  margin-top: 2%;
+  }
+  #level-title{
+    margin-top: 0%;
+   }
+  button{
+    margin:  0%;
+  }
+}
+@media  screen and (max-width: 773px) {
+  #level-title{
+    font-size: 2.3rem;
+  }
+  }
+  @media  screen and (max-width: 642px) {
+    .btn{
+      margin-top: 2%;
+    height: 200px;
+    width: 200px;
+    }
+    #level-title{
+      font-size: 1.8rem;
+    }
+  }
+  @media  screen and (max-width: 622px) {
+    #level-title{
+      font-size: 1.8rem;
+    }
+    button{
+      margin: 2% 0%;
+    }
+    }
+@media  screen and (max-width: 584px) {
+#level-title{
+  font-size: 1.4rem;
+}
+button{
+  margin: 4% 0%;
+}
+}
+@media  screen and (max-width: 528px) {
+  .btn{
+  height: 200px;
+  width: 170px;
+  }
+#level-title{
+    margin: 0;
+    margin-top: 5%;
+    font-size: 1rem;
+  }
+}
+@media  screen and (max-width: 455px) {
+  .btn{
+  height: 200px;
+  width: 150px;
+  }
+  #level-title{
+    margin: 0;
+    margin-top: 8%;
+    font-size: 1.1rem;
+  }
+  button{
+    margin: 5% 0%;
+  }
+}
+@media  screen and (max-width: 426px) {
+  .btn{
+  height: 200px;
+  width: 135px;
+  }
+  #level-title{
+    margin: 0;
+    font-size: 1.2rem;
+    margin-top: 8%;
+  }
+  button{
+    margin: 6% 0%;
+  }
+}
+
+@media  screen and (max-width: 390px) {
+  .btn{
+    margin: 2.2%;
+  height: 180px;
+  width: 120px;
+  }
+  #level-title{
+    margin: 0;
+    margin-top: 8%;
+    font-size: 1rem;
+  }
+  button{
+    margin: 7% 0%;
+  }
+}
+@media  screen and (max-width: 345px) {
+  .btn{
+    margin-top: 10%;
+  height: 170px;
+  width: 95px;
+  }
+  #level-title{
+    margin: 0;
+    margin-top: 11%;
+    font-size: 0.8rem;
+  }
+  button{
+    margin-bottom: 5%;
+  }
+}
